@@ -1,4 +1,3 @@
-Blog Addr:
 
 www.yukirang.space
 
