@@ -2,7 +2,10 @@ We know that the queue is a data structure based on <a href="https://en.wikipedi
 
 Imagine we have released a lot of spaces at the head, is there any way to reuse these spaces? The answer is exactly the Circular Queue. In a circular queue, the rear is connected to the head, forming a circular structure. The front and rear pointers move clockwise with "enqueue" and "dequeue" operations.
 
-[caption id="" align="aligncenter" width="289"]<img class="" src="https://cdncontribute.geeksforgeeks.org/wp-content/uploads/Circular-queue.png" width="289" height="300" /> Circular Queue[1][/caption]Now let's grab a sense of how to implement the Circular Queue:
+<img class="" src="https://cdncontribute.geeksforgeeks.org/wp-content/uploads/Circular-queue.png"/>
+Circular Queue[1]
+
+Now let's grab a sense of how to implement the Circular Queue:
 <pre lang="javascript" line="0">//Initialization. Set the size of the queue to be k.
 var MyCircularQueue = function(k) {
     this.queue = new Array(k);
