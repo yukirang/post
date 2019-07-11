@@ -2,6 +2,6 @@
 
 ### .md files for posts backup
 
-http://yukirang.space
+[post](http://yukirang.space/wordpress)
 
 Good day!
